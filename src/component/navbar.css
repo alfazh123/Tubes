@@ -1,0 +1,30 @@
+
+.navbar .link{
+    text-decoration: none;
+    color: #333;
+    padding: 0.4%;
+    border-radius: 20%;
+}
+
+.navbar .logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(background_navbar.svg);
+    color: #fff;
+}
+
+.navbar .nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 4%;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+}
+
+.navbar .link:hover{
+    background-color: rgba(214, 213, 213,0.8);
+    color: #333;
+}
