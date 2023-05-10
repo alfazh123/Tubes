@@ -1,0 +1,19 @@
+.hero{
+    color: #6d6b6b;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+    padding: 0 7%;
+}
+
+
+
+
+
