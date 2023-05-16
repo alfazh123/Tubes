@@ -1,31 +1,23 @@
-.blog{
+.blogPage{
     padding: 0 7%;
-    display : flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #f5f5f5;
 }
-.Blogs{
+
+.BlogPage-Hero{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     height: 100vh;  
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #333;
-    text-align: center;
+    padding: 0 30% 0 0;
 }
 
-.blog-content{
-    display:flex;
-    flex-direction: column;
-    align-items: center;   
-    background-color: #f5f5f5;
+.BlogPage-Hero h1{
+    font-size: 5rem;
 }
 
-.blog-content .blog-card{
+.BlogPage_SubContent{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,10 +25,8 @@
     background-color: #f5f5f5;
 }
 
-.card{
+.card-blog1{
     width: 80%;
     height: 80%;
     border-radius: 10px;
 }
-
-

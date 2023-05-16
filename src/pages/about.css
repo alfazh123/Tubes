@@ -5,6 +5,12 @@
     justify-content: center;
     text-align: center;
     height: 100vh;
-    padding: 0 7%;
+    padding: 0 15%;
+}
+
+.hero-about h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
 }
 

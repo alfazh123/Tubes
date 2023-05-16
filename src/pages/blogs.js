@@ -1,8 +1,8 @@
 import React from 'react';
 import './blogs.css';
 import Navbar from '../component/navbar';
-import { Link } from 'react-router-dom';
 import foto from '../asset/card.png';
+import CardBlog from '../component/CardBlog';
 
 function blog() {
   return (
@@ -16,12 +16,9 @@ function blog() {
       <div className='blog-content'>
           <h2>Chose one!</h2>
         <div className='blog-card'>
-          <Link to="/blogs/blog1" className="link"><img src={foto} alt="foto-blog" className='foto-blog' /></Link>
-        
-          <Link to="/blogs/blog2" className="link"><img src={foto} alt="foto-blog" className='foto-blog' /></Link>
-        
-          <Link to="/blogs/blog3" className="link"><img src={foto} alt="foto-blog" className='foto-blog' /></Link>
-          
+          <CardBlog to='/blog1' src={foto} alt='foto' className='card'/>
+          <CardBlog src={foto} alt='foto' className='card'/>
+          <CardBlog src={foto} alt='foto' className='card'/>
         </div>
 
       </div>

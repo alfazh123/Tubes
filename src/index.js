@@ -5,12 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Blogs from './pages/blogs';
 import About from './pages/about';
-import Contact from './pages/contact';
+import Blog1 from './pages/blog1';
 
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
 } from 'react-router-dom';
 
 const router = createBrowserRouter([
@@ -26,10 +25,11 @@ const router = createBrowserRouter([
     path: 'about',
     element: <About />
   },
-  { 
-    path: 'contact',
-    element: <Contact />
-  },
+  {
+    path: 'blog1',
+    element: <Blog1 />
+  }
+  
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
