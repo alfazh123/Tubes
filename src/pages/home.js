@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import foto from './foto.png';
 
 function Home() {
+
   return (
     <div>
         <Navbar />

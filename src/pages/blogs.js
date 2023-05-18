@@ -5,6 +5,7 @@ import foto from '../asset/card.png';
 import CardBlog from '../component/CardBlog';
 
 function blog() {
+
   return (
     <div className='blog'>
         <Navbar />
@@ -17,8 +18,8 @@ function blog() {
           <h2>Chose one!</h2>
         <div className='blog-card'>
           <CardBlog to='/blog1' src={foto} alt='foto' className='card'/>
-          <CardBlog src={foto} alt='foto' className='card'/>
-          <CardBlog src={foto} alt='foto' className='card'/>
+          <CardBlog to='/blog2' src={foto} alt='foto' className='card'/>
+          <CardBlog to='/blog3' src={foto} alt='foto' className='card'/>
         </div>
 
       </div>
