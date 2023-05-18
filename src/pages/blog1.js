@@ -1,5 +1,6 @@
 import React from "react";
 import BlogPage from "../component/blogPage";
+import foto from "../asset/card.png";
 
 function Blog1() {
     const items=['item1','item2','item3','item4'];
@@ -9,7 +10,9 @@ function Blog1() {
     return (
         <div>
             <BlogPage
-                title="Blog Page"
+                img1={foto}
+                color="#FFE7CC"
+                title="Hindari Hoax"
                 content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget libero vitae magna vulputate vestibulum. Sed vitae nisl eget nunc aliquam aliquet. Sed vitae nisl eget nunc aliquam aliquet."
                 title1="Blog 1"
                 content1="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget libero vitae magna vulputate vestibulum. Sed vitae nisl eget nunc aliquam aliquet. Sed vitae nisl eget nunc aliquam aliquet."

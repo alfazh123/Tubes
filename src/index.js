@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import Blogs from './pages/blogs';
 import About from './pages/about';
 import Blog1 from './pages/blog1';
+import Blog2 from './pages/blog2';
+import Blog3 from './pages/blog3';
 
 import {
   createBrowserRouter,
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
   {
     path: 'blog1',
     element: <Blog1 />
+  },
+  {
+    path: 'blog2',
+    element: <Blog2 />
+  },
+  {
+    path: 'blog3',
+    element: <Blog3 />
   }
   
 ]);

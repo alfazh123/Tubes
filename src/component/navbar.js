@@ -3,6 +3,9 @@ import './navbar.css';
 import { Link } from 'react-router-dom';
 //create navbar for all pages except home
 function Navbar() {
+    function handleClick(){
+        window.scrollTo(0, 0);
+    }
     return (
         <div className="navbar" >
             <div className="logo">
@@ -10,8 +13,8 @@ function Navbar() {
             </div>
 
             <div className="nav-links">
-                <Link to="/" className="link">Home</Link>
-                <Link to="/about" className="link">About</Link>
+                <Link onClick={handleClick} to="/" className="link">Home</Link>
+                <Link onClick={handleClick} to="/about" className="link">About</Link>
             </div>
                 
         </div>

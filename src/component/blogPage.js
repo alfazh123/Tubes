@@ -8,6 +8,10 @@ function BlogPage(props) {
         <li>{item}</li>
     );
 
+    const myStyle={
+        backgroundColor:props.color
+    };
+
     return (
         <div className="blogPage">
             <Navbar/>
@@ -20,23 +24,30 @@ function BlogPage(props) {
             </body>
 
             <main>
-                <div className="BlogPage-Content">
-                    <h2>{props.title1}</h2>
-                    <p>{props.content1}</p>
-
-                    <div className="main_blogContent">
-                        <h2>{props.title2}</h2>
-                        <p>{props.content2}</p>
-                        <ul>{listItems}</ul>
+                <div className="BlogPage-Content" style={myStyle}>
+                    <div className="BlogPage-Content-sumary">   
+                        <h2>{props.title1}</h2>
+                        <p>{props.content1}</p>
                     </div>
 
-                    <div className="main_blogContent">
+                    <div className="first_blogContent">
+                        <div className="first_blogContent-img">
+                            <img src={props.img1} alt="img1"className="img1"/>
+                        </div>
+                        <div className="first_blogContent-text">
+                            <h2>{props.title2}</h2>
+                            <p>{props.content2}</p>
+                            <ul>{listItems}</ul>
+                        </div>
+                    </div>
+
+                    <div className="mid_blogContent">
                         <h2>{props.title3}</h2>
                         <p>{props.content3}</p>
                         <ul>{listItems}</ul>
                     </div>
 
-                    <div className="main_blogContent">
+                    <div className="last_blogContent">
                         <h2>{props.title4}</h2>
                         <p>{props.content4}</p>
                         <ul>{listItems}</ul>
