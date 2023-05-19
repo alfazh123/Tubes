@@ -3,14 +3,14 @@ import Navbar from '../component/navbar';
 import './blogPage.css';
 
 function BlogPage(props) {
-    const items=props.items;
-    const listItems=items.map((item)=>
-        <li>{item}</li>
-    );
+    
+    const items = props.items;
+    const listItems = items.map((item) => <li key={item.toString()}>{item}</li>);
+    const items2 = props.items2;
+    const listItems2 = items2.map((item) => <li key={item.toString()}>{item}</li>);
+    const items3 = props.items3;
+    const listItems3 = items3.map((item) => <li key={item.toString()}>{item}</li>);
 
-    const myStyle={
-        backgroundColor:props.color
-    };
 
     return (
         <div className="blogPage">
@@ -24,7 +24,7 @@ function BlogPage(props) {
             </body>
 
             <main>
-                <div className="BlogPage-Content" style={myStyle}>
+                <div className="BlogPage-Content" >
                     <div className="BlogPage-Content-sumary">   
                         <h2>{props.title1}</h2>
                         <p>{props.content1}</p>
@@ -44,13 +44,13 @@ function BlogPage(props) {
                     <div className="mid_blogContent">
                         <h2>{props.title3}</h2>
                         <p>{props.content3}</p>
-                        <ul>{listItems}</ul>
+                        <ul>{listItems2}</ul>
                     </div>
 
                     <div className="last_blogContent">
                         <h2>{props.title4}</h2>
                         <p>{props.content4}</p>
-                        <ul>{listItems}</ul>
+                        <ul>{listItems3}</ul>
                     </div>
 
                 </div>

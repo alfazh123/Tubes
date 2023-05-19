@@ -1,7 +1,8 @@
 import React from "react";
 import BlogPage from "../component/blogPage";
+import foto from "../asset/card.png";
 
-function Blog2(props){
+function Blog2(){
     const items=['item1','item2','item3','item4'];
     const items2=['item5','item6','item7','item8'];
     const items3=['item9','item10','item11','item12'];
@@ -9,6 +10,7 @@ function Blog2(props){
     return (
         <div>
             <BlogPage
+                img1={foto}
                 title="Blog Page2"
                 content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget libero vitae magna vulputate vestibulum. Sed vitae nisl eget nunc aliquam aliquet. Sed vitae nisl eget nunc aliquam aliquet."
                 title1="Blog 1"

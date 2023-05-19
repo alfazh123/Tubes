@@ -26,7 +26,6 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    background-color: #ffcc25;
 }
 
 .BlogPage-Content-sumary{
@@ -41,6 +40,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 8% 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .first_blogContent-img img{

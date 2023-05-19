@@ -3,15 +3,14 @@ import BlogPage from "../component/blogPage";
 import foto from "../asset/card.png";
 
 function Blog1() {
-    const items=['item1','item2','item3','item4'];
-    const items2=['item5','item6','item7','item8'];
-    const items3=['item9','item10','item11','item12'];
+    const items=['item1','item2','item3','item4','item5','item6','item7','item8','item9','item10','item11','item12'];
+    const items2=['a','b','c','d'];
+    const items3=['e','f','g','h'];
 
     return (
         <div>
             <BlogPage
                 img1={foto}
-                color="#FFE7CC"
                 title="Hindari Hoax"
                 content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget libero vitae magna vulputate vestibulum. Sed vitae nisl eget nunc aliquam aliquet. Sed vitae nisl eget nunc aliquam aliquet."
                 title1="Blog 1"

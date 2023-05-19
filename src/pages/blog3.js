@@ -1,5 +1,6 @@
 import React from "react";
 import BlogPage from "../component/blogPage";
+import foto from "../asset/card.png";
 
 function Blog3(){
     const items=['item1','item2','item3','item4'];
@@ -9,6 +10,7 @@ function Blog3(){
     return (
         <div>
             <BlogPage
+                img1={foto}
                 title="Blog Page3"
                 content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget libero vitae magna vulputate vestibulum. Sed vitae nisl eget nunc aliquam aliquet. Sed vitae nisl eget nunc aliquam aliquet."
                 title1="Blog 1"
