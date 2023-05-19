@@ -31,7 +31,10 @@ function Home() {
           <CardBlog to='/blog1' src={foto} alt='foto' className='card'/>
           <CardBlog to='/blog2' src={foto} alt='foto' className='card'/>
           <CardBlog to='/blog3' src={foto} alt='foto' className='card'/>
+          <CardBlog src={foto} alt='foto' className='card'/>
+          <CardBlog src={foto} alt='foto' className='card'/>
         </div>
+        
 
       </div>
 

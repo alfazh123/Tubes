@@ -44,13 +44,15 @@
     justify-content: center;
     color: #000000;
     font-size: 1.2rem;
-    padding: 0 20%;
+    padding: 0 10%;
 }
 
 .home-content .home-card{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     padding-bottom: 10%;
 }
@@ -59,9 +61,8 @@
     width: 80%;
     height: 80%;
     border-radius: 10px;
+    justify-content: space-between;
 }
-
-
 
 .footer{
     display: flex;
