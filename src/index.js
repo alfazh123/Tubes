@@ -7,6 +7,7 @@ import About from './pages/about';
 import Blog1 from './pages/blog1';
 import Blog2 from './pages/blog2';
 import Blog3 from './pages/blog3';
+import Blog4 from './pages/blog4';
 
 import {
   createBrowserRouter,
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: 'blog3',
     element: <Blog3 />
+  },
+  {
+    path: 'blog4',
+    element: <Blog4/>
   }
   
 ]);

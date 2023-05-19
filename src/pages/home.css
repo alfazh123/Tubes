@@ -87,6 +87,16 @@
     .home-content{
         padding: 0 10%;
     }
+
+    .home-content .home-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        padding-bottom: 10%;
+    }
 }
 
 @media screen and (max-width: 320px){
