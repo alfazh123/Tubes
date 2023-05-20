@@ -2,6 +2,8 @@ import React from "react";
 import BlogPage from "../component/blogPage";
 import foto from "../asset/card.png";
 
+
+
 function Blog1() {
     const items=['item1','item2','item3','item4','item5','item6','item7','item8','item9','item10','item11','item12'];
     const items2=['a','b','c','d'];

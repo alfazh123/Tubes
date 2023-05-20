@@ -2,8 +2,9 @@ import React from 'react';
 import Navbar from '../component/navbar';
 import './home.css';
 import { Link } from 'react-router-dom';
-import foto from '../asset/card.png';
-import CardBlog from '../component/CardBlog';
+import ImageSlider from '../component/ImageSlider';
+import { SliderData } from '../component/SliderData';
+
 
 function Home() {
 
@@ -21,22 +22,25 @@ function Home() {
       </div>
 
       <div className='home-content'>
-        <h2>Logo</h2>
-        <p>bdjsbkdnasfnl lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum bdjsbkdnasfnl lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum bdjsbkdnasfnl lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum</p>
-      
-
-      
-          <h2>Chose one!</h2>
-        <div className='home-card'>
-          <CardBlog to='/blog1' src={foto} alt='foto' className='card'/>
-          <CardBlog to='/blog2' src={foto} alt='foto' className='card'/>
-          <CardBlog to='/blog3' src={foto} alt='foto' className='card'/>
-          <CardBlog src={foto} alt='foto' className='card'/>
-          <CardBlog src={foto} alt='foto' className='card'/>
+        <div className='homeSub-content'>
+          <h2>Logo</h2>
+          <p>bdjsbkdnasfnl lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum bdjsbkdnasfnl lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum bdjsbkdnasfnl lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum</p>
         </div>
+
+      <div className='home-content-section'>
+          
+          <h2>Chose one!</h2>
         
+        <div className='home-card'>
+        
+          <ImageSlider slides={SliderData}/>
+        
+        </div>
+      
+      </div>
 
       </div>
+
 
       <footer className='footer'>
         <p>project by Alfazh©️2023</p>

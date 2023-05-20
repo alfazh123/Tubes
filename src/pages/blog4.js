@@ -1,11 +1,13 @@
 import React from "react";
-import BlogPage from '../component/blogPage';
 
-function Blog4(props){
+function Blog4(){
+
     return(
         <div>
-            <BlogPage
-            />
+            <h1>Blog 4</h1>
+            <p>Ini adalah blog 4</p>
         </div>
     )
 }
+
+export default Blog4;
