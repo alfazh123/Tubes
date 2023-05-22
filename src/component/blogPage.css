@@ -1,4 +1,6 @@
-
+.blogPage{
+    background-image: linear-gradient(#a49efd, #f5f5f5, #f5f5f5, #edff4a);
+}
 
 .BlogPage-Hero{
     display: flex;
@@ -10,6 +12,7 @@
     color: #333;
     padding: 0 10%;
     max-width: 45%;
+    
 }
 
 .BlogPage-Hero h1{
@@ -17,44 +20,102 @@
     max-width: 5rem;
 }
 
-.BlogPage-Hero p{
-    max-width: 45rem;
-}
 
-.BlogPage-Content{
-    padding:0 20%;
+.headContent{
     position: relative;
     justify-content: center;
     align-items: center;
 }
 
-.BlogPage-Content-sumary{
-    padding: 7%;
+.headContent-sumary{
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 1.2rem;
+    padding:0 10%;
 }
 
-.first_blogContent{
+.blogContent{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 8% 0;
+    grid-gap: 5rem;
     justify-content: center;
     align-items: center;
+    padding:8% 10%;
 }
 
-.first_blogContent-img img{
+.blogContent-img img{
     width: 80%;
     height: 80%;
-}
-
-.mid_blogContent{
-    display: flex;
-    flex-direction: column;
+    border-radius: 10px;
 }
 
 .last_blogContent{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding:0 10% 10% 10%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+@media screen and (max-width: 768px){
+    .BlogPage-Hero{
+        padding: 10%;
+        max-width: 100%;
+    }
+    .headContent{
+        padding: 10%;
+    }
+    .blogContent{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .blogContent-img img{
+        width: 100%;
+        height: 100%;
+    }
+}
+    
+@media screen and (max-width: 500px){
+    .BlogPage-Hero{
+        padding: 10%;
+        max-width: 100%;
+    }
+    .blogContent{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .blogContent-img img{
+        width: 100%;
+        height: 100%;
+    }
+}
+    
+@media screen and (max-width: 400px){
+    .BlogPage-Hero{
+        padding: 10%;
+        max-width: 100%;
+    }
+    .headContent{
+        padding: 10%;
+    }
+    .blogContent{
+        display: flex;
+        flex-direction: column;
+        padding: 10%;
+    }
+    .blogContent-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .last_blogContent{
+        padding: 10%;
+    }
 }

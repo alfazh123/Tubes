@@ -64,14 +64,6 @@
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    padding-bottom: 10%;
-}
-
-/*make animation for text in home-content-section when we sroll down*/
-.home-content-section.active{
-    transform: translateY(10px);
-    opacity: 1;
-    transition: all 0.5s ease;
 }
 
 .home-content-section h2{
@@ -81,12 +73,6 @@
     text-align: right;
 }
 
-.card{
-    width: 80%;
-    height: 80%;
-    border-radius: 10px;
-    justify-content: space-between;
-}
 
 .footer{
     display: flex;
@@ -102,24 +88,24 @@
     .home-content{
         padding: 0 10%;
     }
+    
 }
     
-@media screen and (max-width: 480px){
+@media screen and (max-width: 650px){
     .hero-content{
         padding: 10%;
     }
     .home-content{
         padding: 0 10%;
     }
-
-    .home-content .home-card{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 2rem;
-        align-items: center;
-        justify-content: space-between;
-        text-align: center;
-        padding-bottom: 10%;
+    .home-content-section{
+        display: flex;
+        flex-direction: column;
+        padding: 0 10%;
+    }
+    .home-content-section h2{
+        justify-content: center;
+        text-align: left;
     }
 }
 

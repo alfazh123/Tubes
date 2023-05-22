@@ -11,35 +11,34 @@ function Home() {
   return (
     <div className='home'>
         <Navbar />
+
       <div className='hero'>
+
         <div className='hero-content'>
           <h1>welcom to lorem ipsum</h1>
           <p>be safety from internet</p>
           <Link to="/" className="link-btn" >Get start!</Link>
         </div>
 
-
       </div>
 
-      <div className='home-content'>
+      <main className='home-content'>
+
         <div className='homeSub-content'>
           <h2>Logo</h2>
           <p>bdjsbkdnasfnl lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum bdjsbkdnasfnl lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum bdjsbkdnasfnl lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum</p>
         </div>
 
-      <div className='home-content-section'>
+        <div className='home-content-section'>
           
-          <h2>Chose one!</h2>
-        
-        <div className='home-card'>
-        
-          <ImageSlider slides={SliderData}/>
+            <h2>Chose one!</h2>
+          <div className='home-card'>
+            <ImageSlider slides={SliderData}/>
+          </div>
         
         </div>
-      
-      </div>
 
-      </div>
+      </main>
 
 
       <footer className='footer'>
