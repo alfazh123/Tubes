@@ -6,11 +6,22 @@
     text-align: center;
     height: 100vh;
     padding: 0 15%;
+    font-size: 2rem;
 }
 
 .hero-about h1{
     font-size: 3rem;
     font-weight: 700;
     color: #333;
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 7% 15%;
+    font-size: 2rem;
 }
 

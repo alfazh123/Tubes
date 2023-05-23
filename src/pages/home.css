@@ -29,7 +29,7 @@
     color: #fff;
     padding: 10px;
     background-color: #0066b0;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .link-btn:hover{
@@ -45,6 +45,11 @@
     color: #000000;
     font-size: 1.2rem;
     padding: 0 10%;
+    color: #fff;
+    background-image: url(../asset/bgContent.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .homeSub-content{
@@ -55,6 +60,7 @@
     color: #000000;
     font-size: 1.2rem;
     padding: 10% 10%;
+    color: #fff;
 }
 
 .home-content-section{
@@ -104,6 +110,9 @@
         padding: 0 10%;
     }
     .home-content-section h2{
+        position: relative;
+        top: 100px;
+        bottom: 10px;
         justify-content: center;
         text-align: left;
     }

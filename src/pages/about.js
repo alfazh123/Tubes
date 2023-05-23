@@ -4,16 +4,30 @@ import './about.css';
 
 function about() {
   return (
-    <div>
+    <div className='about'>
         <Navbar />
         <div className="hero-about">
-          <h1>About the Website</h1>
-          Exercitation proident dolor id sint. Anim nostrud exercitation excepteur veniam excepteur. Adipisicing mollit amet elit mollit quis deserunt. Mollit magna ad non laborum nulla. Et eu ipsum sint enim aliquip nisi. Reprehenderit labore nostrud elit consequat id consectetur in voluptate ullamco.Officia ipsum ex eu ipsum dolore. Minim dolor dolor sit tempor. Tempor pariatur id dolore exercitation anim qui eu incididunt. Qui sunt cupidatat commodo sit eu esse. Nisi aliquip deserunt elit amet pariatur magna. Aliquip duis laboris eu ex aute aliqua enim. Aliqua eu veniam consectetur consequat exercitation ipsum ex.
-
-Veniam consequat duis aliquip aute esse elit nulla adipisicing. Nostrud dolor proident laborum sit. Adipisicing Lorem laboris duis do sint. Ea est reprehenderit fugiat et eiusmod tempor qui do commodo reprehenderit. Esse cupidatat laboris et commodo.
-
-Cupidatat sunt officia et exercitation velit. Fugiat minim proident est ut laboris pariatur consectetur dolore. Eiusmod culpa laborum ullamco ipsum elit officia mollit dolor laboris culpa exercitation.
+          <h1>About the Website and Team</h1>
+          website ini ditujukan untuk anak-anak dan orang tua yang mungkin masih bingung dengan penggunaan ponsel, karena pada zaman sekarang ponsel merupakan objek yang penting bagi semua kalangan dari anak-anak sampai orang tua. 
+          
+          dengan adanya website ini diharapkan dapat membantu anak-anak bahkan semua orang agar bisa melindungi diri dari bahaya yang ada di internet.
         </div>
+
+        <div className="team">
+          <h1>Team</h1>
+          
+            'Ahmd Mufahras Li Alfazh Assardew' As Engginering<br/>
+            'Candra Bagus Ainur Rochman' As Content Writer Berbuat Baik Di Internet<br/>
+            'Clarinta Ghita Pradyan' As Content Writer Waktu Penggunaan Internet Yang Baik<br/>
+            'Nasa Nabila Adilia' As Content Writer Privacy<br/>
+            'Novia Putri Rahmadani' As Content Writer<br/>
+            'Shelamita Sefiani' As Content Writer Hoax<br/>
+          
+        </div>
+
+        <footer>
+          <p></p>
+        </footer>
     </div>
   );
 }

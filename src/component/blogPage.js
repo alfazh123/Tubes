@@ -11,12 +11,18 @@ function BlogPage(props) {
     const items3 = props.items3;
     const listItems3 = items3.map((item) => <li key={item.toString()}>{item}</li>);
 
-
+    const styleHero = {
+        backgroundImage: `url(${props.img})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        
+    }
     return (
         <div className="blogPage">
             <Navbar/>
 
-            <body>
+            <body style={styleHero} className="hero-blogpage">
                 <header className="BlogPage-Hero">
                     <h1>{props.title}</h1>
                     <p>{props.content}</p>
@@ -41,7 +47,7 @@ function BlogPage(props) {
                         </div>
                     </div>
 
-                    <div className="blogContent">
+                    <div className="blogSubContent">
                         <div className="blogContent-text">
                             <h2>{props.title3}</h2>
                             <p>{props.content3}</p>
