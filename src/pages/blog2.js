@@ -1,6 +1,8 @@
 import React from "react";
 import BlogPage from "../component/blogPage";
-import foto from "../asset/card.png";
+import Blog2bg from '../asset/blog2_bg.jpg'
+import imgBlog21 from "../asset/img_blog2_1.jpg";
+import imgBlog22 from "../asset/img_blog2_2.jpg";
 
 function Blog2(){
     const items=['Kartu Identitas kita','KAta sandi Akun', 'Alamat, terutama bagi orang yang kita tidak kenal','Foto-foto pribadi','Informasi tentang kesehatan, Keuangan, Keluarga, dan Lokasi kita'];
@@ -10,7 +12,9 @@ function Blog2(){
     return (
         <div>
             <BlogPage
-                img1={foto}
+                img={Blog2bg}
+                img1={imgBlog21}
+                img2={imgBlog22}
                 title="Keep Privacy"
                 content="Jaga Diri dengan menjaga privasi anda"
                 title1="What Is Privacy?"

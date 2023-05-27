@@ -14,6 +14,11 @@
     animation: forwards 1s ease-in-out;
 }
 
+.imageslide:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
 .right-arrow {
     position: absolute;
     top: 50%;

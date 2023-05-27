@@ -1,26 +1,57 @@
 import React from "react";
 import BlogPage from "../component/blogPage";
-import foto from "../asset/card.png";
+import blog3bg from "../asset/blog3_bg.jpg";
+import blog3img1 from "../asset/img_blog3_1.jpg";
+import blog3img2 from "../asset/img_blog3_2.jpg";
 
 function Blog3(){
-    const items=['item1','item2','item3','item4'];
-    const items2=['item5','item6','item7','item8'];
+    const items=['Jadilah sopan, Gunakan kata-kata yang baik dan sopan saat bercengkrama di internet',
+    'Jadilah teladan kebaikan: Menjadi superhero internet berarti kamu bisa membagikan hal-hal positif dan menginspirasi kepada orang lain. Misalnya, kamu bisa berbagi cerita lucu, kutipan motivasi, atau hal-hal yang membuat orang senang',
+    'Jauhi hal-hal yang buruk: Hindari perilaku yang merugikan seperti menyakiti perasaan orang lain, mengolok-olok, atau menyebarkan cerita bohong. Kamu bisa memilih untuk menjadi penyebab kebahagiaan bagi orang lain!',
+    'Lindungi dirimu dan temanmu: Jangan lupa menjaga privasi dan keamananmu saat bermain di internet. Jangan berbagi informasi pribadi dengan orang yang tidak kamu kenal, dan jaga sandimu agar tetap rahasia.',
+    'Bagikan pengetahuan dan cerita mu: Jika kamu tahu hal-hal menarik atau memiliki keterampilan khusus, bagikan dengan teman-temanmu. Kamu bisa membantu mereka belajar dan tumbuh di dunia maya!'];
+    const items2=['Membuat Internet Menjadi Tempat yang Menyenangkan: Ketika kita berbuat baik, kitamenciptakan lingkungan online yang penuh keceriaan, ramah, dan menyenangkan. Kita bisa membuat teman baru, berbagi hal-hal seru, dan menemukan hal-hal yang membuat kita senang.',
+    'Menguatkan Persahabatan dan Komunitas: Dengan berbuat baik, kita bisa memperkuat hubungan dengan teman-teman kita di dunia maya. Kita bisa saling memberi dukungan, bermain bersama, dan membuat komunitas online yang kuat dan menyenangkan.',
+    'Menginspirasi Orang Lain: Saat kita berbuat baik, kita bisa menginspirasi orang lain untuk melakukan hal-hal baik juga. Tindakan positif kita bisa memberikan contoh yang baik dan mendorong orang lain untuk berbuat baik juga.',
+    'Menyebarkan Kebaikan dan Keberagaman: Ketika kita berbagi kebaikan, kita membuat dunia maya menjadi tempat yang lebih inklusif dan penuh keberagaman. Kita bisa menghormati perbedaan pendapat, saling menghargai, dan menciptakan lingkungan yang ramah bagi semua orang.',
+    'Membantu Membuat Dunia Lebih Baik: Ketika kita berbuat baik di internet, kita bisa membantu menyebarkan pesan-pesan positif dan mendukung penyebab yang penting. Misalnya, kita bisa berpartisipasi dalam kampanye sosial atau mendukung organisasi amal yang membantu orang yang membutuhkan.'];
     const items3=['item9','item10','item11','item12'];
 
     return (
         <div>
             <BlogPage
-                img1={foto}
-                title="Blog Page3"
-                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget libero vitae magna vulputate vestibulum. Sed vitae nisl eget nunc aliquam aliquet. Sed vitae nisl eget nunc aliquam aliquet."
-                title1="Blog 1"
-                content1="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget libero vitae magna vulputate vestibulum. Sed vitae nisl eget nunc aliquam aliquet. Sed vitae nisl eget nunc aliquam aliquet."
-                title2="Blog 2"
-                content2="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget libero vitae magna vulputate vestibulum. Sed vitae nisl eget nunc aliquam aliquet. Sed vitae nisl eget nunc aliquam aliquet."
-                title3="Blog 3"
-                content3="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget libero vitae magna vulputate vestibulum. Sed vitae nisl eget nunc aliquam aliquet. Sed vitae nisl eget nunc aliquam aliquet."
-                title4="Blog 4"
-                content4="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget libero vitae magna vulputate vestibulum. Sed vitae nisl eget nunc aliquam aliquet. Sed vitae nisl eget nunc aliquam aliquet."
+                img={blog3bg}
+                img1={blog3img1}
+                img2={blog3img2}
+                title="Berbuat Baik Di Internet"
+                content="Jadikan Internet Dunia yang baik untuk semua orang."
+                title1="Kenapa kita harus berbuat baik di internet?"
+                content1="Dunia digital memanglah seru dan menyenangkan. internet menjadi seperti hutan ajaib yang bisa kita
+                jelajahi setiap hari. Di sana, kita bisa bicara dengan teman jauh, mencari tahu hal-hal
+                menarik, bahkan menemukan hiburan yang seru! Tapi, seiring dengan petualangan online
+                kita, kita juga perlu waspada terhadap beberapa masalah yang bisa muncul. Ada berita
+                bohong yang suka bergentayangan, serta orang yang suka berbuat jahat dan menipu di
+                dunia maya. Makanya, kita harus saling berbagi kebaikan dan menciptakan lingkungan
+                online yang asyik, positif, dan penuh kreativitas!"
+                title2="Bagaimana Caranya?"
+                content2="Di dunia maya yang seru ini, berbuat baik itu seperti menjadi superhero internet!
+                Kamu bisa melakukan hal-hal yang positif dan membantu orang lain dalam petualangan
+                onlinemu. Yuk, kita lihat beberapa contoh konkrit tentang berbuat baik di internet:"
+                title3="Memang apa yang kita dapatkan?"
+                content3="Mungkin banyak yang bertanya, apa yang kita daotkan setelah kita berbuat baik di internet? Berbuat baik di internet itu menyenangkan dan bisa membuat dunia maya menjadi tempat
+                yang lebih indah! Ini adalah beberapa hal positif yang bisa terjadi jika kita berbuat baik di
+                internet:"
+                title4="Jadi Berbuat Baik di Internet Itu Apa?"
+                content4="Jadi, Pahlawan, mari kita ingat betapa pentingnya berbuat baik di internet! Dengan
+                sikap yang baik, kita bisa menciptakan dunia maya yang indah dan menyenangkan bagi
+                semua orang. Ingatlah untuk selalu menghormati dan menghargai orang lain, membantu
+                mereka dengan sukacita, dan menjadi teladan kebaikan. Kita pun akan merasakan
+                kebahagiaan dan kepuasan saat memberikan dampak positif kepada orang lain. Jadilah
+                pahlawan online yang berani dan bersemangat untuk menyebarkan kebaikan di dunia maya!
+                Dengan tindakan-tindakan kecil, kita bisa membuat perbedaan yang besar dan membangun
+                komunitas online yang penuh kasih sayang. Mari bersama-sama menjadikan internet
+                sebagai tempat yang menyenangkan, aman, dan penuh kebaikan. Teruslah berbuat baik,
+                anak-anak, dan jadilah penggerak perubahan positif di dunia maya! Semangat!"
                 items={items}
                 items2={items2}
                 items3={items3}

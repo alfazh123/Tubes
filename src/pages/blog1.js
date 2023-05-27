@@ -26,7 +26,7 @@ function Blog1() {
                 berita palsu ini beragam, bisa untuk membuat orang panik, cemas, atau mengacaukan pikiran
                 mereka. Biasanya, berita palsu ini dibuat oleh orang-orang jahat yang ingin memanipulasi pendapat
                 banyak orang atau memiliki niat jahat lainnya."
-                title2="Bagaimana Kita bisa mengetahuinya agar terhindar dari berita HOAX?"
+                title2="How We Now Hoax?"
                 content2="berita bohon atau Hoax sangatlah mudah untuk menyebar di dunia maya untuk kita dapat mengetahui berita itu bohong atau tidak dengan mengecek beberapa poin dibawah ini"
                 title3="Dampak negatif penyebaran berita hoax"
                 content3="Tahu nggak, teman-teman? Penyebaran berita palsu itu punya dampak negatif yang banyak untuk

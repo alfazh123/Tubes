@@ -1,0 +1,137 @@
+.teamCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: #116D6E;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 5%;
+    color: #e6e6e6;
+}
+
+.teamCard:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.teamCard-img img{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamCard-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 5%;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 990px){
+    .teamCard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+    }
+
+    .teamCard-img img{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .teamCard-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+        max-width: 100%;
+    }
+}
+    
+@media screen and (max-width: 1550px){
+    
+    
+    .hero-about{
+        font-size: 1.5rem;
+    }
+    
+    .hero-about h1{
+        font-size: 2rem;
+    }
+    
+    .team{
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+    }
+    footer{
+        font-size: 1rem;
+    }
+}
+
+    
+
+@media screen and (max-width: 768px){
+    *:root{
+        font-size: 50%;
+    }
+    
+    .hero-about{
+        font-size: 1.5rem;
+    }
+    
+    .hero-about h1{
+        font-size: 2rem;
+    }
+    
+    .team{
+        font-size: 1rem;
+    }
+    
+    .Container{
+        grid-template-columns: 1fr;
+    }
+    
+    .headContent{
+        font-size: 1rem;
+    }
+    
+    .headContent-sumary{
+        font-size: 1rem;
+    }
+    
+    .blogContent{
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        padding: 5%;
+    }
+    
+    .blogSubContent{
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        padding: 5%;
+    }
+    
+    .blogContent-img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    
+    .last_blogContent{
+        padding: 0 5% 5% 5%;
+    }
+    
+    footer{
+        font-size: 1rem;
+    }
+}
