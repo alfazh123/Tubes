@@ -1,25 +1,29 @@
-import foto from '../asset/foto-card1.png';
-import foto2 from '../asset/foto-card2.png';
+import React from 'react';
+import hoax from '../asset/AntiHoax.jpg';
+import privacy from '../asset/privasi.jpg';
+import ramah from '../asset/RamahInternet.jpg';
+import aman from '../asset/AmandiInternet.jpg';
+import waktu from '../asset/WaktuBerinternet.jpg';
 
 export const SliderData = [
     {
-        image: foto,
+        image: hoax,
         Link: '/blog1'
     },
     {
-        image: foto2,
+        image: privacy,
         Link: '/blog2'
     },
     {
-        image: foto,
+        image: ramah,
         Link: '/blog3'
     },
     {
-        image: foto2,
+        image: aman,
         Link: '/blog4'
     },
     {
-        image: foto,
+        image: waktu,
         Link: '/blog5'
     },
 ]

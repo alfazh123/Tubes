@@ -5,10 +5,13 @@ import blog4img1 from "../asset/img_blog4_1.jpg";
 import blog4img2 from "../asset/img_blog4_2.jpg";
 
 function Blog4(){
-    const items = ['Gunakan Kata Sandi Yang Kuat, pastika kata sandi yang digunakan adalah kata sandi yang kuat dengan kombinasi huruf besar, huruf kecil, angka, dan simbol. Semakin panjang kata sandi yang digunakan, semakin sulit untuk ditebak.',
-    'Jaga Informasi Pribadi, Internet adalah dunia yang luas kita tidak tau ada siapa saja disana ada yang berniat jahat atau tida maka itu kita harus menjaga diri masing-masing dengan tidak membagikan informasi seperti nama, alamat, nomor telepon, nomor rekening, dan informasi pribadi lainnya kepada orang yang di internet.',
-    'Jangan Mudah Percaya, Internet penuh dengan informasi, tetapi tidak semua benar. Ada banyak berita palsu atau informasi yang salah. Penting bagi kita untuk mengeceknya berulang-ulang',
-    'Batasi WAktu yang Dihabiskan di Internet, meskipun internet menyenangkan, kita juga perlu menghabiskan waktu di kehidupan nyata. lakukan kegiatan fisik seperti bermmain bola dengan teman, bermain sepeda, dan lain sebagainya yang bisa kamu lakukan bersama dengan temanmu.'];
+    const items = ['Gunakan Kata Sandi Yang Kuat, dengan menggunakan kombinasi huruf, angka, dan simbol unik. Semakin sulit sandi semakin aman akun kita.',
+
+    'Jaga Informasi Pribadi',
+
+    'Jangan Mudah Percaya dengan informasi yang belum jelas kebenarannya, karena bisa saja itu adalah informasi yang salah.',
+    
+    'Batasi Waktu yang Dihabiskan di Internet'];
     const items2= ['Memiliki teman di kehidupan nyata',
     'lebih sehat karena tidak melulu berada di depan layar komputer atau ponsel',
     'Internet menjadi sahabat yang baik',
@@ -22,7 +25,7 @@ function Blog4(){
                 img={blog4bg}
                 img1={blog4img1}
                 img2={blog4img2}
-                title="Aman Menggunakan Internet"
+                title="Aman Dengan Internet"
                 content="Ambil langkah yang benar menuju dunia yang luas"
                 title1="Keanap Kita harus berhati-hati?"
                 content1="Halo, teman-teman! Apa kabar? Di dunia yang modern ini, kita sering menggunakan internet

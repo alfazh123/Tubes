@@ -53,6 +53,7 @@ main{
     align-items: center;
     text-align: center;
     padding:0 10%;
+    font-size: 1.5rem;
 }
 
 .blogContent{
@@ -62,6 +63,10 @@ main{
     justify-content: center;
     align-items: center;
     padding:8% 10%;
+}
+
+.blogContent-text{
+    font-size: 1.5rem;
 }
 
 .blogSubContent{
@@ -84,7 +89,8 @@ main{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding:0 10% 10% 10%;
+    padding:0 10% 10% 5%;
+    font-size: 1.5rem;
 }
 
 footer{
@@ -100,21 +106,21 @@ footer{
         font-size: 80%;
     }
     .BlogPage-Hero{
-        padding: 10%;
+        padding: 5%;
         max-width: 100%;
     }
     .headContent{
-        padding: 10%;
+        padding: 5%;
     }
     .blogContent{
         display: flex;
         flex-direction: column;
-        padding: 10%;
+        padding: 5%;
     }
     .blogSubContent{
         display: flex;
         flex-direction: column-reverse;
-        padding: 10%;
+        padding: 5%;
     }
     .blogContent-img img{
         width: 100%;
@@ -127,7 +133,7 @@ footer{
         font-size: 70%;
     }
     .BlogPage-Hero{
-        padding: 10%;
+        padding: 2%;
         max-width: 100%;
     }
     .blogContent{
@@ -137,40 +143,10 @@ footer{
     .bllogSubContent{
         display: flex;
         flex-direction: column-reverse;
-        padding: 10%;
+        padding: 2%;
     }
     .blogContent-img img{
         width: 100%;
         height: 100%;
-    }
-}
-    
-@media screen and (max-width: 400px){
-    *:root{
-        font-size: 70%;
-    }
-    .BlogPage-Hero{
-        padding: 10%;
-        max-width: 100%;
-    }
-    .headContent{
-        padding: 10%;
-    }
-    .blogContent{
-        display: flex;
-        flex-direction: column;
-        padding: 10%;
-    }
-    .blogSubContent{
-        display: flex;
-        flex-direction: column-reverse;
-        padding: 10%;
-    }
-    .blogContent-img img{
-        width: 100%;
-        height: 100%;
-    }
-    .last_blogContent{
-        padding: 10%;
     }
 }

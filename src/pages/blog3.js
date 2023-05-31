@@ -6,15 +6,24 @@ import blog3img2 from "../asset/img_blog3_2.jpg";
 
 function Blog3(){
     const items=['Jadilah sopan, Gunakan kata-kata yang baik dan sopan saat bercengkrama di internet',
-    'Jadilah teladan kebaikan: Menjadi superhero internet berarti kamu bisa membagikan hal-hal positif dan menginspirasi kepada orang lain. Misalnya, kamu bisa berbagi cerita lucu, kutipan motivasi, atau hal-hal yang membuat orang senang',
-    'Jauhi hal-hal yang buruk: Hindari perilaku yang merugikan seperti menyakiti perasaan orang lain, mengolok-olok, atau menyebarkan cerita bohong. Kamu bisa memilih untuk menjadi penyebab kebahagiaan bagi orang lain!',
-    'Lindungi dirimu dan temanmu: Jangan lupa menjaga privasi dan keamananmu saat bermain di internet. Jangan berbagi informasi pribadi dengan orang yang tidak kamu kenal, dan jaga sandimu agar tetap rahasia.',
-    'Bagikan pengetahuan dan cerita mu: Jika kamu tahu hal-hal menarik atau memiliki keterampilan khusus, bagikan dengan teman-temanmu. Kamu bisa membantu mereka belajar dan tumbuh di dunia maya!'];
-    const items2=['Membuat Internet Menjadi Tempat yang Menyenangkan: Ketika kita berbuat baik, kitamenciptakan lingkungan online yang penuh keceriaan, ramah, dan menyenangkan. Kita bisa membuat teman baru, berbagi hal-hal seru, dan menemukan hal-hal yang membuat kita senang.',
-    'Menguatkan Persahabatan dan Komunitas: Dengan berbuat baik, kita bisa memperkuat hubungan dengan teman-teman kita di dunia maya. Kita bisa saling memberi dukungan, bermain bersama, dan membuat komunitas online yang kuat dan menyenangkan.',
-    'Menginspirasi Orang Lain: Saat kita berbuat baik, kita bisa menginspirasi orang lain untuk melakukan hal-hal baik juga. Tindakan positif kita bisa memberikan contoh yang baik dan mendorong orang lain untuk berbuat baik juga.',
-    'Menyebarkan Kebaikan dan Keberagaman: Ketika kita berbagi kebaikan, kita membuat dunia maya menjadi tempat yang lebih inklusif dan penuh keberagaman. Kita bisa menghormati perbedaan pendapat, saling menghargai, dan menciptakan lingkungan yang ramah bagi semua orang.',
-    'Membantu Membuat Dunia Lebih Baik: Ketika kita berbuat baik di internet, kita bisa membantu menyebarkan pesan-pesan positif dan mendukung penyebab yang penting. Misalnya, kita bisa berpartisipasi dalam kampanye sosial atau mendukung organisasi amal yang membantu orang yang membutuhkan.'];
+
+    'Jadilah teladan kebaikan, dengan membagikan hal-hal yang baik dan positif di dunia maya',
+
+    'Jauhi hal-hal yang buruk, seperti menghina dan meluaskan Hoax di nuia maya',
+
+    'Lindungi dirimu dan temanmu, dengan tidak menyebarkan informasi pribadi dan rahasia',
+
+    'Bagikan pengetahuan dan cerita mu, bangun komunitas yang positif dan menyenangkan di dunia maya'];
+
+    const items2=['Membuat Internet Menjadi Tempat yang Menyenangkan',
+
+    'Menguatkan Persahabatan dan Komunitas',
+
+    'Menginspirasi Orang Lain dengan berbuat baik dengan orang lain',
+
+    'Menumbuhkan rasa Kebaikan dan Keberagaman antar sesama di dunia maya',
+
+    'Membantu Membuat Dunia Lebih Baik'];
     const items3=['item9','item10','item11','item12'];
 
     return (
@@ -38,7 +47,7 @@ function Blog3(){
                 Kamu bisa melakukan hal-hal yang positif dan membantu orang lain dalam petualangan
                 onlinemu. Yuk, kita lihat beberapa contoh konkrit tentang berbuat baik di internet:"
                 title3="Memang apa yang kita dapatkan?"
-                content3="Mungkin banyak yang bertanya, apa yang kita daotkan setelah kita berbuat baik di internet? Berbuat baik di internet itu menyenangkan dan bisa membuat dunia maya menjadi tempat
+                content3="Mungkin banyak yang bertanya, apa yang kita dapatkan setelah kita berbuat baik di internet? Berbuat baik di internet itu menyenangkan dan bisa membuat dunia maya menjadi tempat
                 yang lebih indah! Ini adalah beberapa hal positif yang bisa terjadi jika kita berbuat baik di
                 internet:"
                 title4="Jadi Berbuat Baik di Internet Itu Apa?"

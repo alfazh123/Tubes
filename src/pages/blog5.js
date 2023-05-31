@@ -5,12 +5,16 @@ import imgBlog2 from '../asset/img_blog5_2.jpg';
 import Blog5bg from '../asset/blog5_bg.jpg';
 
 function blog5() {
-    const items = ['Masalah pada kesehatan mental, kita akan merasa kita tidak berguna di dunia karena selalu mendengarkan omongan orang di internet yang seharusnya kita fokus kediri kita sendiri',
-    'Masalah pada hubungan sosial, seperti kurang pergaulan dengan teman dan keluarga dan paling buruknya lagi isolasi sosial',
-    'Masalah pada kesehatan fisik, menjadi kurang memperhatikan diri sendiri karena kurangnya aktifitas fisik',]
-    const items2 = ['Istirahat yang cukup, pakai aturan 20-20-20, yaitu setiap 20 menit, coba untuk melihat objek yang berjarak sejauh 20 kaki selama 20 detik. Hal ini berguna untuk melindungi mata supaya tidak lelah dan sakit.',
+    const items = ['Masalah pada kesehatan mental',
+    
+    'Masalah pada hubungan sosial',
+    
+    'Masalah pada kesehatan fisik',]
+    const items2 = ['Istirahat yang cukup, pakai aturan 20-20-20, yaitu setiap 20 menit, coba untuk melihat objek yang berjarak sejauh 20 kaki selama 20 detik.',
+    
     'Beraktivitas fisik, seperti bermain bola, bermain sepeda, dan lain sebagainya yang bisa kamu lakukan bersama dengan temanmu.',
-    'Bersosialisasi di dunia nyata, Hal ini diperlukan agar kita bisa percaya diri saat menghadapi orang-orang di dunia nyata dan dapat meningkatkan keterampilan kita seperti salah satunya adalah public speaking. Kegiatan yang bisa dilakukan adalah seperti bertemu teman, mengikuti acara keluarga, atau aktivitas berkelompok. Cobalah untuk terlibat secara aktif dengan orang-orang di sekitar kita dan hindari menggunakan gadget saat bersosialisasi dengan orang lain.',]
+    
+    'Bersosialisasi dengan teman-teman di dekat rumah',]
     const items3 = ['This','is','a','list','of','items']
     return(
         <div>

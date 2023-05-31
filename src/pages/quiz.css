@@ -1,0 +1,42 @@
+.quiz{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.answer-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    padding: 0 10%;
+    color: #fff;
+}
+
+.answer-section button{
+    width: 100%;
+    font-size: large;
+    padding: 7%;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: #3c3c3c;
+}

@@ -21,6 +21,7 @@ const ImageSlider = ({slides}) => {
     if (!Array.isArray(slides) || slides.length <= 0) {
         return null;
     }
+// make progress bar
 
     return(
         <section className="slider">
@@ -32,8 +33,10 @@ const ImageSlider = ({slides}) => {
                     {index} >
                         {index === current && (
                             <CardBlog to={slide.Link} src={slide.image} alt='foto' className='imageslide' key={index}/>
-                        ) }
+                            ) }
+
                     </div>
+                    
                 )
                 })}
         </section>
