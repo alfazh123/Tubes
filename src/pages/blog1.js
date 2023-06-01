@@ -31,15 +31,13 @@ function Blog1() {
                 title3="Dampak negatif penyebaran berita hoax"
                 content3="Tahu nggak, teman-teman? Penyebaran berita palsu itu punya dampak negatif yang banyak untuk
                 masyarakat, misalnya:"
-                title4="Kenapa kita harus menghindari berita HOAX?"
+                title4="Jadi Kenapa kita harus menghindari berita HOAX?"
                 content4="Jadi, sharing informasi palsu atau yang tidak benar itu bisa berdampak buruk bagi kita semua,
                 teman-teman. Karena itu, sebelum kamu bagikan suatu informasi, pastikan kamu memeriksanya
                 dulu. Hal ini akan membantu mencegah penyebaran berita palsu dan memastikan bahwa informasi
                 yang kita terima dan bagikan adalah benar dan bisa dipercaya.
                 Dengan adanya pengetahuan tentang berita palsu seperti ini, diharapkan kita bisa lebih
-                paham tentang pentingnya memeriksa kebenaran informasi sebelum membagikannya. Kita harus
-                semakin pandai memilih mana yang harus dibagikan dan mana yang tidak, supaya kita bisa terhindar
-                dari penyebaran berita palsu dan informasi yang salah.
+                paham tentang pentingnya memeriksa kebenaran informasi sebelum membagikannya. 
                 Ingat, yuk, jadi generasi yang cerdas dan bertanggung jawab dalam menyebarkan informasi!"
                 items={items}
                 items2={items2}

@@ -91,6 +91,7 @@ main{
     text-align: center;
     padding:0 10% 10% 5%;
     font-size: 1.5rem;
+    text-align: justify;
 }
 
 footer{
@@ -99,6 +100,31 @@ footer{
     align-items: center;
     color: #fff;
     background-color: #3C486B;
+}
+
+@media screen and (max-width: 1068px){
+    
+    .BlogPage-Hero{
+        padding: 5%;
+        max-width: 100%;
+    }
+    .headContent{
+        padding: 5%;
+    }
+    .blogContent{
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+    }
+    .blogSubContent{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .blogContent-img img{
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media screen and (max-width: 768px){

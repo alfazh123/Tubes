@@ -51,7 +51,7 @@ function Blog3(){
                 yang lebih indah! Ini adalah beberapa hal positif yang bisa terjadi jika kita berbuat baik di
                 internet:"
                 title4="Jadi Berbuat Baik di Internet Itu Apa?"
-                content4="Jadi, Pahlawan, mari kita ingat betapa pentingnya berbuat baik di internet! Dengan
+                content4="Berbuat baik itu menjadi Pahlawan bagi semua orang, mari kita ingat betapa pentingnya berbuat baik di internet! Dengan
                 sikap yang baik, kita bisa menciptakan dunia maya yang indah dan menyenangkan bagi
                 semua orang. Ingatlah untuk selalu menghormati dan menghargai orang lain, membantu
                 mereka dengan sukacita, dan menjadi teladan kebaikan. Kita pun akan merasakan

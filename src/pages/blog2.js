@@ -21,11 +21,8 @@ function Blog2(){
                 content1="Privasi adalah tentang menjaga
                 rahasia kita sendiri. Ini berarti kita bisa memutuskan siapa yang boleh tahu tentang informasi
                 pribadi kita. Privasi melindungi kita dari orang-orang yang ingin melakukan kejahatan kepada kita
-                seprti mengawasi kita atau menggunakan informasi kita tanpa izin kita. Lebih mudahnya
-                orang-orang ini mencuri data-data kita.
-                Namun, juga pasti ada dong beberapa situasi di mana privasi bisa dikalahkan oleh
-                kepentingan yang lebih besar. Apa kepentingan besar tersebut? Contoh kepentingan besar
-                tersebut adalah keamanan negara atau kesehatan masyarakat. Tapi dalam kebanyakan kasus
+                seprti mengawasi kita atau menggunakan informasi kita tanpa izin kita.
+                Tapi dalam kebanyakan kasus
                 sehari-hari, privasi kita harus dihormati dan dilindungi. Kebijakan dan peraturan tentang privasi
                 penting agar informasi pribadi kita tidak disalahgunakan dan kita memiliki kendali atas data kita
                 sendiri."
@@ -34,13 +31,8 @@ function Blog2(){
                 title3="Apa dampaknya?"
                 content3="Kenapa kita harus menjaga data kita memang kalau data kita bocor apa ruginya, Oh jangan Salah teman-teman jika kalian tidak menjaga data kalian dengan aman maka yang mungkin terjadi adalah :"
                 title4="Jadi menjaga Privaacy itu penting?"
-                content4="Jadi,melindungi data pribadi itu sanagt penting ya. Jika kita tidak bisa melindungi
-                data-data kita, kemudian data kita diketahui sama orang lain, tentu saja itu bahaya banget. Nanti
-                
-                identitas kita bisa dicuri, uang kita juga bisa dicuri. Memangnya kalian mau kalau nama kalian
-                dipakai sama temen kalian? Tentu tidak kan. Maka dari itu, kalian harus pintar menjaga data diri
-                kalian. Langkah pencegahannya yang paling mudah adalah membuat kata sandi yang susah buat
-                ditebak sama orang lain.
+                content4="Jadi,melindungi data pribadi itu sanagt penting ya.  Pastinya kita tidak mau kalau nama kita dipakai oleh orang jahat, Tentu tidak kan. Maka dari itu, kalian harus pintar menjaga data diri
+                kalian. Langkah pencegahannya yang paling mudah adalah membuat kata sandi yang susah ditebak.
                 Terus kalau datanya bocor bagaimana? Kalau data kita sampai bocor, langkah pertama yang harus
                 diambil yaitu mengubah kata sandi. Setelah mengganti kata sandi, kita harus melaporkan ke
                 pihak yang berwenang. Siapa pihak berwenang tersebut? Tentu saja polisi. Ingat ya, kalau data
