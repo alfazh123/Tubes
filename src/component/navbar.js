@@ -9,7 +9,7 @@ function Navbar() {
     return (
         <div className="navbar" >
             <div className="logo">
-                <Link onClick={handleClick} to="/" className="logo-link"><h1>Jadi Aman</h1></Link>
+                <Link onClick={handleClick} to="/" className="logo-link"><h1>JadiAman</h1></Link>
             </div>
 
             <div className="nav-links">

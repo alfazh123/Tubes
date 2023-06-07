@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+    transition: all 0.8s ease-in-out;
+}
+
 .home{
     display: flex;
     flex-direction: column;
@@ -37,6 +42,11 @@
     color: #fff;
 }
 
+.link-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .home-content{
     display: flex;
     flex-direction: column;
@@ -58,8 +68,8 @@
     align-items: flex-start;
     justify-content: center;
     color: #000000;
-    font-size: 1.8rem;
-    padding: 10% 10%;
+    font-size: 1.5rem;
+    padding: 0 10% 10% 10%;
     color: #fff;
 }
 
@@ -79,16 +89,45 @@
     text-align: right;
 }
 
-.home-card{
-    padding-bottom: 20%;
-}
-
-
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.arrow-down a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.arrow-down{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    color: #fff;
+    animation: animateDown infinite 1.5s;
+    color: rgba(255, 255, 255,0.5);
+    transition: 0.5s;
+}
+
+.arrow-down:hover{
+    color: rgba(255, 255, 255,1);
+}
+
+@keyframes animateDown{
+    0%{
+        transform: translateX(-50%) translateY(0);
+    }
+    50%{
+        transform: translateX(-50%) translateY(20px);
+    }
+    100%{
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
 
 @media screen and (max-width: 768px){
     .hero-content{
@@ -108,6 +147,12 @@
         bottom: 10px;
         justify-content: center;
         text-align: left;
+    }
+    .arrow-down-bottom{
+        position: relative;
+        bottom: 20px;
+        left: 50%;
+        transform: rotate(0deg) translateX(-50%);
     }
 }
     
