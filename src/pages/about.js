@@ -3,6 +3,7 @@ import Navbar from '../component/navbar';
 import './about.css';
 import TeamCard from '../component/TeamCard';
 import foto from '../asset/foto-card1.png';
+import profilAlfazh from '../asset/profil litdig/profil_alfazh.jpeg';
 import profilCandra from '../asset/profil litdig/profil_candra.jpg';
 import profilClarin from '../asset/profil litdig/profil_clarin.jpg';
 import profilNasa from '../asset/profil litdig/profil_nasa.JPG';
@@ -27,7 +28,7 @@ function about() {
           
           <div className="Container">
             <TeamCard 
-              img={foto}
+              img={profilAlfazh}
               name="Ahmd Mufahras Li Alfazh Assardew"
               content="22051204020"
               work="Engginering"

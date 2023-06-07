@@ -33,7 +33,7 @@ function Blog3(){
                 img1={blog3img1}
                 img2={blog3img2}
                 title="Berbuat Baik Di Internet"
-                content="Jadikan Internet Dunia yang baik untuk semua orang."
+                content="Jadikan internet dunia yang baik untuk semua orang."
                 title1="Kenapa kita harus berbuat baik di internet?"
                 content1="Dunia digital memanglah seru dan menyenangkan. internet menjadi seperti hutan ajaib yang bisa kita
                 jelajahi setiap hari. Di sana, kita bisa bicara dengan teman jauh, mencari tahu hal-hal
